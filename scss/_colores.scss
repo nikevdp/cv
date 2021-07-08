@@ -1,11 +1,11 @@
 $backgraound: ( 
         celeste: #68d3ee,
         verde:  #3aa325,
-        naranja: #e95419    
+        naranja: #FBB03B    
 ); 
 
 @each $colores, $color in $backgraound {
-   .boton--#{$colores} {
+   .#{$colores} {
        background-color: $color;
    }
 }
