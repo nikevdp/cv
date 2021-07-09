@@ -7,6 +7,9 @@
 .naranja {
   background-color: #FBB03B; }
 
+.titlFount {
+  font-size: 100px; }
+
 .presentacion {
   margin: 40px;
   display: flex;
@@ -23,7 +26,9 @@
     margin: 2px 0px 2px 0px; }
 
 .titulo {
-  font-weight: bold; }
+  font-weight: bold;
+  position: relative;
+  margin-bottom: -5px; }
 
 footer {
   position: fixed;
@@ -55,17 +60,33 @@ footer {
 .tituloResaltado {
   color: #fbb03b;
   margin-top: 20px;
-  font-weight: bold; }
-  .tituloResaltado p {
-    font-size: 20px; }
+  font-weight: bold;
+  font-size: 20px; }
 
 .nombre {
   position: absolute; }
-  .nombre p {
-    font-size: 100px; }
 
 .apellido {
   margin-top: 30px;
   position: absolute; }
   .apellido p {
     font-size: 300px; }
+
+.parrafo {
+  width: 400px; }
+
+.cuerpo {
+  display: flex;
+  margin: 20px 20px 10px 40px; }
+  .cuerpo .derecha {
+    margin-left: 30px; }
+
+.experiencia {
+  display: flex; }
+  .experiencia .textoIzquierda {
+    margin-right: 20px; }
+  .experiencia .textoDerecha {
+    margin-left: 20px; }
+
+.tituloFotos {
+  width: 400px; }

@@ -1,6 +1,9 @@
 
 @import "colores";
 @import "tipografia";
+.titlFount{
+    font-size: 100px;
+}
 .presentacion{
     margin: 40px;
     display: flex;
@@ -20,6 +23,8 @@
 }
 .titulo{
     font-weight: bold;
+    position: relative;
+    margin-bottom: -5px;
 }
 footer{
     position: fixed;
@@ -55,15 +60,10 @@ footer{
     color: #fbb03b;
     margin-top: 20px;
     font-weight: bold;
-    p{
-        font-size: 20px;
-    }
+    font-size: 20px;
 }
 .nombre{
     position: absolute;
-    p{
-        font-size: 100px;
-    }
 }
 .apellido{
     margin-top: 30px;
@@ -71,4 +71,26 @@ footer{
     p{
         font-size: 300px;
     }
+}
+.parrafo{
+    width: 400px;
+}
+.cuerpo{
+    display: flex;
+    margin: 20px 20px 10px 40px;
+    .derecha{
+        margin-left: 30px;
+    }
+}
+.experiencia{
+    display: flex;
+    .textoIzquierda{
+        margin-right: 20px;
+    }
+    .textoDerecha{
+        margin-left: 20px;
+    }
+}
+.tituloFotos{
+    width: 400px;
 }
