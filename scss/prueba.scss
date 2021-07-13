@@ -1,11 +1,18 @@
 
 @import "colores";
 @import "tipografia";
+body{
+    font-size: 14px;
+    font-family: fuenteBody !important;
+}
 .titlFount{
-    font-size: 100px;
+    font-size: 146px;
+    font-family: titulos;
+}
+.margenes{
+    margin: 44px 59.005px 48.1px 79.005px;
 }
 .presentacion{
-    margin: 40px;
     display: flex;
     justify-content: space-between;
     img{
@@ -17,7 +24,6 @@
     p{
         margin-left: 20px;
         text-align: left;
-        font-size: 15px;
         margin: 2px 0px 2px 0px;
     }
 }
@@ -26,14 +32,13 @@
     position: relative;
     margin-bottom: -5px;
 }
-.tituloEstudio
 footer{
     position: fixed;
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
     width: 100%;
-    height: 48*2px;
+    height: 48+37.35px;
     bottom: 0px;
     a{
         height: 48px;
@@ -43,6 +48,7 @@ footer{
         border: solid black 1px;
         background-color: #eead44;
         color: black;
+        font-weight: bold;
         text-decoration: none;
         div{
             display: flex;
@@ -58,25 +64,26 @@ footer{
     }    
 }
 .tituloResaltado{
+    font-size: 48px;
     color: #fbb03b;
     margin-top: 20px;
     font-weight: bold;
-    font-size: 20px;
 }
 .nombre{
+    font-size: 155px;
     position: absolute;
 }
 .apellido{
-    margin-top: 30px;
+    margin-top: 34.4px;
     position: absolute;
-    font-size: 300px;
+    font-size: 433px;
+    left: 65px;
 }
 .parrafo{
     width: 400px;
 }
 .cuerpo{
     display: flex;
-    margin: 20px 20px 10px 40px;
     .derecha{
         margin-left: 30px;
     }
