@@ -68,9 +68,8 @@ footer {
 
 .apellido {
   margin-top: 30px;
-  position: absolute; }
-  .apellido p {
-    font-size: 300px; }
+  position: absolute;
+  font-size: 300px; }
 
 .parrafo {
   width: 400px; }

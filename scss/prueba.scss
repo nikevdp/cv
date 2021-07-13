@@ -26,6 +26,7 @@
     position: relative;
     margin-bottom: -5px;
 }
+.tituloEstudio
 footer{
     position: fixed;
     display: flex;
@@ -68,9 +69,7 @@ footer{
 .apellido{
     margin-top: 30px;
     position: absolute;
-    p{
-        font-size: 300px;
-    }
+    font-size: 300px;
 }
 .parrafo{
     width: 400px;
